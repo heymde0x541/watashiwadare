@@ -1,4 +1,4 @@
-document.documentElement.style.setProperty("--text-color", "#F2CDCD");
+/*document.documentElement.style.setProperty("--text-color", "#F2CDCD");*/
 
 function light() {
     document.body.classList.toggle("light-mode");
