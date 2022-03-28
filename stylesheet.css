@@ -65,3 +65,8 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+#frame {
+    width: 100%;
+    border-radius: 15px;
+}
