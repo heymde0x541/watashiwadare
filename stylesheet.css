@@ -1,5 +1,6 @@
 :root{
     --text-color: #F2CDCD;
+    --h-frame: 0px;
 }
 
 html {
@@ -74,5 +75,6 @@ a:hover {
 
 #frame {
     width: 100%;
+    height: var(--h-frame);
     border-radius: 15px;
 }
