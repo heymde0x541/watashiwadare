@@ -23,3 +23,9 @@ function autoLight() {
 }
 
 document.addEventListener('DOMContentLoaded', autoLight);
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('switch').addEventListener("click", function() {
+        light();
+    })
+});
