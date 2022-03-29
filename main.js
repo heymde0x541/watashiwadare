@@ -15,3 +15,11 @@ function light() {
         document.getElementById('switch').innerHTML = "lighttheme";
     }
 }
+
+function autoLight() {
+    if(window.matchMedia("(prefers-color-scheme: light)").matches) {
+        light();
+    }
+}
+
+document.addEventListener('DOMContentLoaded', autoLight);
