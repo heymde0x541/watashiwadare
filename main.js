@@ -16,13 +16,15 @@ function light() {
     }
 }
 
-function autoLight() {
+function auto() {
+    let hFrame = (document.querySelector('#frame').offsetWidth * 0.5625) + 'px';
     if(window.matchMedia("(prefers-color-scheme: light)").matches) {
         light();
     }
+    document.documentElement.style.setProperty("--h-frame", hFrame);
 }
 
-document.addEventListener('DOMContentLoaded', autoLight);
+document.addEventListener('DOMContentLoaded', auto);
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('switch').addEventListener("click", function() {
