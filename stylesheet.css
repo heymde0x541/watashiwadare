@@ -61,6 +61,7 @@ h2 {
 
 a {
     color: var(--text-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:visited {
