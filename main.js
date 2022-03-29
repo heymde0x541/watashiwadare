@@ -17,11 +17,9 @@ function light() {
 }
 
 function auto() {
-    let hFrame = (document.querySelector('#frame').offsetWidth * 0.5625) + 'px';
     if(window.matchMedia("(prefers-color-scheme: light)").matches) {
         light();
     }
-    document.documentElement.style.setProperty("--h-frame", hFrame);
 }
 
 document.addEventListener('DOMContentLoaded', auto);
