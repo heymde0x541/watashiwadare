@@ -12,6 +12,11 @@ html {
     padding: 2ch;
     background-color: #161320;
     color: var(--text-color);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 }
 
 .light-mode {
