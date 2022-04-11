@@ -3,8 +3,10 @@
     --h-frame: 0px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 html {
-    font-family: 'Courier New';
+    font-family: 'Fira Code';
 }
 
 .body {
