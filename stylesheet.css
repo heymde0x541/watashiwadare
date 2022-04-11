@@ -1,10 +1,11 @@
 :root{
     --text-color: #F2CDCD;
     --h-frame: 0px;
+    --f-font: "JetBrains Mono";
 }
 
 html {
-    font-family: JetBrains Mono;
+    font-family: var(--f-font);
 }
 
 .body {
