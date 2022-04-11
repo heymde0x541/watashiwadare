@@ -19,7 +19,7 @@ html {
 }
 
 .light-mode {
-    background-color: #1A1826;
+    background-color: #D9E0EE;
     color: #161320;
 }
 
@@ -37,7 +37,8 @@ html {
 }
 
 .light-mode-div0{
-    background-color: #F5E0DC;
+    background-color: #ffffff;
+    outline: 2px solid #575268;
 }
 
 .div1 {
@@ -47,7 +48,8 @@ html {
 }
 
 .light-mode-div1{
-    background-color: #F2CDCD;
+    background-color: #ffffff;
+    outline: 2px solid #575268;
 }
 
 h1 {
