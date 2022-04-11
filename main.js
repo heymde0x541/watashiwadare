@@ -1,4 +1,5 @@
 document.documentElement.style.setProperty("--text-color", "#F2CDCD");
+document.documentElement.style.setProperty("--f-font", "JetBrains Mono");
 
 function light() {
     document.body.classList.toggle("light-mode");
