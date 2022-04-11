@@ -74,6 +74,5 @@ a:hover {
 
 #frame {
     width: 100%;
-    height: var(--h-frame);
-    border-radius: 15px;
+    aspect-ratio: 16/9;
 }
