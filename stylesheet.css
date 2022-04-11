@@ -3,6 +3,9 @@
     --h-frame: 0px;
 }
 
+html {
+    font-family: JetBrains Mono;
+}
 
 .body {
     margin: auto;
@@ -14,7 +17,6 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-}
 }
 
 .light-mode {
