@@ -1,6 +1,5 @@
 :root{
     --text-color: #F2CDCD;
-    --h-frame: 0px;
 }
 
 html {
@@ -75,4 +74,5 @@ a:hover {
 #frame {
     width: 100%;
     aspect-ratio: 16/9;
+    border-radius: 15px;
 }
