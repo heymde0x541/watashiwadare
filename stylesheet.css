@@ -24,14 +24,12 @@ html {
 }
 
 .nav {
-    border-radius: 15px;
     font-weight: bold;
     background-color: #1A1826;
     color: var(--text-color);
 }
 
 .div0 {
-    border-radius: 15px;
     background-color: #1E1E2E;
     color: var(--text-color);
 }
@@ -42,7 +40,6 @@ html {
 }
 
 .div1 {
-    border-radius: 15px;
     background-color:#1A1826;
     color: var(--text-color);
 }
