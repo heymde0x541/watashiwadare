@@ -3,7 +3,7 @@
 }
 
 html {
-    font-family: 'monospace';
+    font-family: 'Courier New';
     word-wrap: break-word;
 }
 
@@ -20,9 +20,10 @@ html {
 }
 
 .light-mode {
-    background-color: #161320;
-    color: #f5e0dc;
+    color: #161320;
+    background-color: #f5e0dc;
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23f2cdcd' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+
 }
 
 .nav {
@@ -43,7 +44,7 @@ html {
 .light-mode-div0{
     background-color: #F5E0DC;
     transition: box-shadow 1s;
-    box-shadow: 0px 5px 15px;
+    box-shadow: 0px 5px 15px; 
 }
 
 .div1 {
@@ -54,7 +55,7 @@ html {
 }
 
 .light-mode-div1{
-    background-color: #F2CDCD;
+    background-color: #F5E0DC;
     box-shadow: 0px 5px 15px; 
     transition: box-shadow 1s;
 }
@@ -78,6 +79,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
+    text-shadow: 0px 0px 5px #C3BAC6;
 }
 
 #frame {
