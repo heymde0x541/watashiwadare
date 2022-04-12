@@ -19,14 +19,14 @@ html {
 }
 
 .light-mode {
-    background-color: #D9E0EE;
+    background-color: #161320;
     color: #161320;
 }
 
 .nav {
     border-radius: 15px;
     font-weight: bold;
-    background-color: #1A1826;
+    background-color: #1E1E2E;
     color: var(--text-color);
 }
 
@@ -37,7 +37,7 @@ html {
 }
 
 .light-mode-div0{
-    background-color: #F2CDCD;
+    background-color: #F5E0DC;
 }
 
 .div1 {
