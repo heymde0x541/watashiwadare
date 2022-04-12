@@ -65,6 +65,10 @@ h2 {
     font-size: 18px;
 }
 
+pre {
+    font-weight: bold;
+}
+
 a {
     color: var(--text-color);
     -webkit-tap-highlight-color: transparent;
