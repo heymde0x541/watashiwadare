@@ -2,6 +2,18 @@
     --text-color: #F2CDCD;
 }
 
+::-webkit-scrollbar{
+    width: 5px;    
+}
+
+::-webkit-scrollbar-track{
+    background-color: #24273a;    
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #f4dbd6;    
+}
+
 html {
     font-family: 'monospace';
     word-wrap: break-word;
