@@ -22,6 +22,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     word-wrap: break-word;
+    opacity:0;
 }
     
 p {
@@ -70,6 +71,7 @@ img {
     if(/Android|iPhone/i.test(navigator.userAgent)) {
         document.documentElement.style.setProperty("--aspect", 1/1);
     }
+    window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
 </script>
 <body>
     <div id="divOut">
